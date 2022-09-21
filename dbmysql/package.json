@@ -1,0 +1,25 @@
+{
+  "name": "dbmysql",
+  "version": "1.0.0",
+  "description": "conexion test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mysql",
+    "nodejs",
+    "javascript",
+    "knex"
+  ],
+  "author": "Josue A. Sanchez G.",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.10.1",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "knex": "^2.2.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,72 @@
+//read
+{
+    persona{
+        fullname
+        points
+        position
+        empleados{
+            id
+            name
+            department
+        }
+    }
+
+}
+//by id
+{
+    personas(id:1){
+        fullname
+        points
+        position
+        empleados{
+            id
+            name
+            department
+        }
+    }
+
+}
+
+
+// create
+mutation{
+createPersona(fullname:"Maritza Mendez",points:190,position:1,empleados_id:3){
+        id
+        fullname
+        points
+        position
+        empleados{
+            id
+            name
+            department
+        }
+    }
+}
+//update
+mutation{
+updatePersona(id:11,fullname:"Josue A. Sanchez G.",points:190,position:1){
+        id
+        fullname
+        points
+        position
+        empleados{
+            id
+            name
+            department
+        }
+    }
+}
+// delete
+mutation{
+deletePersona(id:9){
+        id
+        fullname
+        points
+        position
+        empleados{
+            id
+            name
+            department
+        }
+    }
+}
